@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Game",
-    "slug": "Game",
+    "name": "Tic Tac Toe",
+    "slug": "TicTacToe",
     "platforms": [
       "ios",
       "android",
@@ -22,7 +22,11 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "net.game.tictactoe.tictactoe",
       "supportsTablet": true
+    },
+    "android": {
+      "package": "net.game.tictactoe.tictactoe"
     }
   }
 }

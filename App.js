@@ -1,19 +1,21 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-
+import {StyleSheet, Text, View, StatusBar } from 'react-native';
+import Design from './components/Design';
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-    </View>
+    <View>
+    <View style={styles.container}></View>
+    <Design /></View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    marginLeft: 150,
     backgroundColor: '#fff',
-    alignItems: 'center',
+    alignContent: 'center',
     justifyContent: 'center',
+    textAlign: 'center'
   },
 });
